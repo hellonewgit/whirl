@@ -133,3 +133,28 @@ body {
     align-items: center;
     gap: 8px;
 }
+
+.trust {
+    padding-top: 40px;
+    padding-bottom: 160px;
+}
+
+.trust__container {}
+
+.center {}
+
+.trust__title {
+    font-size: 24px;
+    line-height: 37px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.trust__logos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style-type: none;
+    align-items: center;
+}
