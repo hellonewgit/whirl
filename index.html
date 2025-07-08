@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="header__container center">
+            <div class="header__left">
+                <div class="header__logo">
+                    <a href="index.html"><img src="img/logo.svg" alt="Whirl logo" class="header__logo-icon"></a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__item"><a href="#" class="header__link">Features</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Pricing</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Integrations</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Learn</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__actions">
+                <a href="#" class="header__login">Sign in</a>
+                <a href="#" class="header__button">Book a demo</a>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__container center">
+            <div class="hero__content">
+                <h1 class="hero__title">Your everyday tasks, automated.</h1>
+                <p class="hero__description">
+                    Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.
+                </p>
+                <div class="hero__actions">
+                    <a href="#" class="hero__button hero__button--primary">Book a demo</a>
+                    <a href="#" class="hero__button hero__button--link">Learn more <svg width="11" height="20"
+                            viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.34314 1.1001L9.68628 9.86039L1.34314 18.6207" stroke="#006B99"
+                                stroke-width="1.6" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="img/hero-img.png" alt="Planning tasks illustration">
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>

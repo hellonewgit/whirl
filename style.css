@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Fraunces", serif;
+}
+
+/* Центрирование */
+.center {
+    padding-left: calc(50% - 565px);
+    padding-right: calc(50% - 565px);
+}
+
+.header {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.header__item {
+    padding: 12px;
+}
+
+.header__link {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #33383F;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+
+.header__login {
+    color: #0070A0;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header__button {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 6px 20px;
+    display: inline-block;
+    background-color: #0070A0;
+}
+
+.hero {
+    padding-top: 70px;
+    padding-bottom: 92px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__title {
+    font-size: 58px;
+    line-height: 64px;
+    color: #1f1f1f;
+    width: 505px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+
+.hero__description {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f1f1f;
+    font-weight: 400;
+    width: 380px;
+    margin-bottom: 32px;
+}
+
+.hero__actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero__button--primary {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    padding: 8px 32px;
+    background-color: #0070A0;
+    display: inline-block;
+}
+
+.hero__button--link {
+    color: #0070A0;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
